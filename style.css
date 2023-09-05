@@ -1,0 +1,12 @@
+@font-face {
+  font-family: PonyvilleMedium;
+  src: url(https://www.fontspace.com/ponyville-font-f23861);
+}
+*{
+  margin: 0;
+  padding:0;
+}
+img {
+  width: auto;
+  height: 100vh;
+}
