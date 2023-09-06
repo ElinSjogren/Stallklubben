@@ -24,16 +24,11 @@ a{
   text-decoration: none;
   color:white;
 }
-img {
-  background-image: url('/images/rainbow1.jpg');
-  width: auto;
-  height: 100vh;
-}
+
 header {
   color: white;
   background: linear-gradient(rgb(171, 236, 238), rgba(240, 99, 205));
   height: 15em;
-  
   display: flex;
   justify-content: center;
 
@@ -43,3 +38,23 @@ h1{
   margin: auto;
   align-items: center;
 }
+body{
+  background-image: url('/images/rainbow2.png');
+  background-position: center ;
+  background-color: rgb(255, 233, 252);
+  background-repeat: no-repeat;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.positionering{
+  display: flex;
+
+}
+.cloud{
+  max-width: 40em;
+  background-image: url('/images/cloud2.png');
+  padding: 2em;
+}
+/*Clouds dosnt work*/
