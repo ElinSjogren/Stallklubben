@@ -1,12 +1,45 @@
 @font-face {
-  font-family: PonyvilleMedium;
-  src: url(https://www.fontspace.com/ponyville-font-f23861);
+  font-family: PonyText;
+  src: url(/ponyville-font/PonyvilleMedium-3636.ttf);
 }
 *{
+  font-family: PonyText;
   margin: 0;
   padding:0;
 }
+nav ul{
+  height: 2em;
+  background-color:  rgb(240, 83, 201);
+ display: flex;
+ justify-content: space-evenly;
+}
+li {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+a{
+  margin: auto;
+ 
+  text-decoration: none;
+  color:white;
+}
 img {
+  background-image: url('/images/rainbow1.jpg');
   width: auto;
   height: 100vh;
+}
+header {
+  color: white;
+  background: linear-gradient(rgb(171, 236, 238), rgba(240, 99, 205));
+  height: 15em;
+  
+  display: flex;
+  justify-content: center;
+
+}
+h1{
+  font-size: 12em;
+  margin: auto;
+  align-items: center;
 }
