@@ -46,6 +46,10 @@ body{
 }
 p{
   font-family: Arial, Helvetica, sans-serif;
+  padding:2em;
+}
+h2{
+  padding:3em;
 }
 
 .positionering{
@@ -55,6 +59,12 @@ p{
 .cloud{
   max-width: 40em;
   background-image: url('/images/cloud2.png');
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
   padding: 2em;
+  overflow: hidden;
+ 
 }
-/*Clouds dosnt work*/
+
+/*Clouds dosnt work. It must */
