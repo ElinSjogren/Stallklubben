@@ -13,7 +13,7 @@ nav ul{
  display: flex;
  justify-content: space-evenly;
 }
-li {
+nav li {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -54,6 +54,7 @@ h2{
 
 .positionering{
   display: flex;
+  justify-content: center;
 
 }
 .cloud{
@@ -67,4 +68,67 @@ h2{
  
 }
 
-/*Clouds dosnt work. It must */
+/*Personalens stilregler*/
+.personalKort{
+  display: flex;
+}
+.profilBild{
+  border-radius: 50%;
+  overflow: hidden;
+  
+}
+
+.personalKort h4, p{
+  margin:auto;
+  margin-left: 1em;
+
+}
+.profilBild img{
+  width: 10rem;
+}
+
+
+/*Ridskolans stilregler*/
+.flik{
+  overflow:hidden;
+  border: 3px solid rgb(179, 108, 236);
+  background-color: hotpink;;
+}
+.flik button {
+  background-color: hotpink;
+  float: left;
+  border: none;
+  outline: none;
+  padding: 2em;
+  transition: 0.5s;
+}
+.flik button:hover{
+  background-color: white;
+}
+
+.flik button:active{
+  background-color: pink;
+  transition: 1s;
+}
+
+.flikInnehall{
+  display: none;
+  padding: 2em;
+  border: 1px solid hotpink;
+}
+.flikarna{
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 2em;
+
+}
+#personal, #borjaRida, #kalender {
+  background-color: white;
+}
+table, th, td{
+  background-color: pink;
+  border: 1px solid;
+  border-collapse: collapse;
+  padding:1em;
+  
+}
