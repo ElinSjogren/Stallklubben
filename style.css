@@ -78,7 +78,7 @@ h2{
   
 }
 
-.personalKort h4, p{
+.personalKort h4, .personalKort p{
   margin:auto;
   margin-left: 1em;
 
@@ -131,4 +131,15 @@ table, th, td{
   border-collapse: collapse;
   padding:1em;
   
+}
+.kontaktWrapper{
+  background-color: white;
+  margin:auto;
+  max-width: 50%;
+  border-radius: 3px;
+  
+}
+.kontaktPos, .kontaktWrapper h2, .kontaktWrapper p{
+  margin:auto;
+  text-align: center;
 }
