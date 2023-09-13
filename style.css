@@ -1,6 +1,6 @@
 @font-face {
   font-family: PonyText;
-  src: url(/ponyville-font/PonyvilleMedium-3636.ttf);
+  src: url(./ponyville-font/PonyvilleMedium-3636.ttf);
 }
 *{
   font-family: PonyText;
@@ -39,7 +39,7 @@ h1{
   align-items: center;
 }
 body{
-  background-image: url('/images/rainbow2.png');
+  background-image: url('./images/rainbow2.png');
   background-position: center ;
   background-color: rgb(255, 233, 252);
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ h2{
 }
 .cloud{
   max-width: 40em;
-  background-image: url('/images/cloud2.png');
+  background-image: url('./images/cloud2.png');
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
