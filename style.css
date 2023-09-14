@@ -1,6 +1,6 @@
 @font-face {
   font-family: PonyText;
-  src: url(/ponyville-font/PonyvilleMedium-3636.ttf);
+  src: url(./ponyville-font/PonyvilleMedium-3636.ttf);
 }
 *{
   font-family: PonyText;
@@ -185,67 +185,4 @@ table, th, td{
 .kontaktPos, .kontaktWrapper h2, .kontaktWrapper p{
   margin:auto;
   text-align: center;
-}
-}
-@media (max-width: 450px) {
-  body{
-    background-color: pink;
-    background-image: url("./images/rainbow4.png");
-
-  }
-  header{
-  height: 4rem;
-  color: white;
-  background: linear-gradient(rgb(171, 236, 238), rgba(240, 99, 205));
-  padding: 
-  }
-  h1{
-    font-size: 10vw;
-    text-align: center;
-  }
-.cloud,
-.personalKort{
-  background-color: white;
-  padding:7%;
-  margin: 2em;
-  border-radius: 3px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.personalKort:nth-child(even){
-  background-color: pink;
-}
-nav ul,
-nav ul a{
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-  background-color:rgb(243, 98, 178);
-  color: white;
-  
-}
-ul:hover{
-  background-color: pink;
-}
-.profilBild img{
-  border-radius: 50%;
-  max-width: 20vw;
-}
-.personalKort p,
-.skolInfo p,
-.kalenderInfo p{
-  font-family: Arial, Helvetica, sans-serif;
-}
-h2{
-  text-align: center;
-}
-
-#introText{
-  background-color:white;
-  padding:2vw;
-  margin:1vw;
-  border-radius: 3px;
-
-}
-
-
 }
