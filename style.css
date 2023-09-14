@@ -7,6 +7,46 @@
   margin: 0;
   padding:0;
 }
+
+.flik{
+  overflow:hidden;
+  border: 3px solid rgb(233, 87, 160);
+  background-color: hotpink;;
+}
+.flik button {
+  background-color: hotpink;
+  float: left;
+  border: none;
+  outline: none;
+  padding: 1em;
+  transition: 0.5s;
+}
+.flik button:hover{
+  background-color: white;
+}
+
+.flik button:active{
+  background-color: pink;
+  transition: 1s;
+}
+
+.flikInnehall{
+  display: none;
+  padding: 2em;
+  border: 1px solid hotpink;
+}
+.flikarna{
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 2em;
+
+}
+#personal, #borjaRida, #kalender {
+  background-color: white;
+}
+@media (min-width: 451px) {
+  /* … */
+
 nav ul{
   height: 2em;
   background-color:  rgb(240, 83, 201);
@@ -34,12 +74,12 @@ header {
 
 }
 h1{
-  font-size: 12em;
+  font-size: 8vW;
   margin: auto;
   align-items: center;
 }
 body{
-  background-image: url('/images/rainbow2.png');
+  background-image: url('./images/rainbow2.png');
   background-position: center ;
   background-color: rgb(255, 233, 252);
   background-repeat: no-repeat;
@@ -59,7 +99,7 @@ h2{
 }
 .cloud{
   max-width: 40em;
-  background-image: url('/images/cloud2.png');
+  background-image: url('./images/cloud2.png');
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -94,7 +134,7 @@ h2{
 /*Ridskolans stilregler*/
 .flik{
   overflow:hidden;
-  border: 3px solid rgb(179, 108, 236);
+  border: 3px solid rgb(233, 87, 160);
   background-color: hotpink;;
 }
 .flik button {
@@ -145,4 +185,67 @@ table, th, td{
 .kontaktPos, .kontaktWrapper h2, .kontaktWrapper p{
   margin:auto;
   text-align: center;
+}
+}
+@media (max-width: 450px) {
+  body{
+    background-color: pink;
+    background-image: url("./images/rainbow4.png");
+
+  }
+  header{
+  height: 4rem;
+  color: white;
+  background: linear-gradient(rgb(171, 236, 238), rgba(240, 99, 205));
+  padding: 
+  }
+  h1{
+    font-size: 10vw;
+    text-align: center;
+  }
+.cloud,
+.personalKort{
+  background-color: white;
+  padding:7%;
+  margin: 2em;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.personalKort:nth-child(even){
+  background-color: pink;
+}
+nav ul,
+nav ul a{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background-color:rgb(243, 98, 178);
+  color: white;
+  
+}
+ul:hover{
+  background-color: pink;
+}
+.profilBild img{
+  border-radius: 50%;
+  max-width: 20vw;
+}
+.personalKort p,
+.skolInfo p,
+.kalenderInfo p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  text-align: center;
+}
+
+#introText{
+  background-color:white;
+  padding:2vw;
+  margin:1vw;
+  border-radius: 3px;
+
+}
+
+
 }
