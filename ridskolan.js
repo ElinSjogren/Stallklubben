@@ -16,8 +16,16 @@ flikLank = document.getElementsByClassName("flikLank");
 for(i=0;i<flikLank.length; i++) {
     flikLank[i].className = flikLank[i].className.replace("active", "");
 }
-
+//det vi har valt får en aktiv class
 document.getElementById(flikNamn).style.display = "block";
 evt.currentTarget.className += "active";
 
+}
+
+//formulärets knapp - lägg namnet i consolen.
+document.getElementById("skickaknapp").onclick = function skickaFormular(){
+    let ifylldFormular = document.getElementById("kontaktformular");
+    const personMedIntresse = {namn: ifylldFormular.namn.value, mejladress: ifylldFormular.mejladress.value}
+    console.log(personMedIntresse);
+    return false;
 }

@@ -175,16 +175,36 @@ table, th, td{
   padding:1em;
   
 }
-.kontaktWrapper{
+.kontaktWrapper,
+.formularWrapp,
+form{
   background-color: white;
   margin:auto;
   max-width: 50%;
   border-radius: 3px;
   
 }
-.kontaktPos, .kontaktWrapper h2, .kontaktWrapper p{
+
+.kontaktPos, .kontaktWrapper h2, .kontaktWrapper p, .formularWrapp h3{
   margin:auto;
   text-align: center;
+}
+.formularWrapp label{
+  font-family:Arial, Helvetica, sans-serif;
+}
+.formularWrapp{
+  border:1px solid pink;
+  border-radius: 3px;
+  margin-bottom: 4em;
+  padding-bottom: 2em;
+}
+#skickaknapp{
+  padding:2em;
+  border-radius: 3px;
+  border:none;
+  color:white;
+  width:100%;
+  background-color:hotpink;
 }
 }
 @media (max-width: 450px) {
@@ -205,12 +225,21 @@ table, th, td{
   }
 .cloud,
 .personalKort,
-.kontaktWrapper{
+.kontaktWrapper,
+.formularWrapp{
   background-color: white;
   padding:7%;
   margin: 2em;
   border-radius: 3px;
   font-family: Arial, Helvetica, sans-serif;
+}
+#skickaknapp{
+  border:none;
+  border-radius: 3px;
+  background-color: pink;
+  color:white;
+  width:100%;
+  padding:1em;
 }
 .personalKort:nth-child(even){
   background-color: pink;
