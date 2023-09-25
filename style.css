@@ -1,6 +1,6 @@
 @font-face {
   font-family: PonyText;
-  src: url(/ponyville-font/PonyvilleMedium-3636.ttf);
+  src: url(./ponyville-font/PonyvilleMedium-3636.ttf);
 }
 *{
   font-family: PonyText;
