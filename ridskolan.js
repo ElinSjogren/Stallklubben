@@ -26,7 +26,7 @@ evt.currentTarget.className += "active";
 document.getElementById("skickaknapp").onclick = function skickaFormular(){
     let ifylldFormular = document.getElementById("kontaktformular");
     const personMedIntresse = {namn: ifylldFormular.namn.value, mejladress: ifylldFormular.mejladress.value}
-    console.log(personMedIntresse);
+    
     alert("Tack " + personMedIntresse.namn);
     return false; //så att inte sidan refreshar :)
 }
